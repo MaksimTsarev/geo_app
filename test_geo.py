@@ -4,8 +4,8 @@ from geopy.distance import great_circle as gd
 class MapParams(object):
     
     def __init__(self):
-        self.lat = 55.755833
-        self.lon = 37.617623
+        self.lat = 55.7
+        self.lon = 37.6
         self.lon_a = self.lon
         self.lat_a = self.lat
         self.lon_sch = 37.596570
